@@ -14,6 +14,9 @@ Due to having imbalanced classes, we used the Balanced Accuracy score to measure
 - The Undersampling method was the worst performing method with a Balanced Accuracy score of 0.54.
 - The Combination Sampling method outperformed all other method's with a Balanced Accuracy score of 0.67.
 
+![BAS](https://user-images.githubusercontent.com/75644168/165717150-199eb640-fd47-4c12-96da-03e5c8f4e1e4.png)
+
+
 #### Precision and Recall
 - Precision for all sampling method's did not perform well with them only correctly predicting high_risk loans with 1% certainty. Which shows that there are a large number of false positives.
 - Recall scores for the Random Oversampling method were 0.71 and 0.58 for high risk and low risk loans, respectively.
@@ -21,6 +24,7 @@ Due to having imbalanced classes, we used the Balanced Accuracy score to measure
 - Recall scores for the Undersampling method were 0.69 and 0.40 for high risk and low risk loans, respectively.
 - Recall scores for the Combination Sampling were 0.73 and 0.60 for high risk and low risk loans, respectively.
     - This was the highest recall score out of all methods.
+
 
 ### Random Forest and Easy Ensemble classifier
 
