@@ -21,3 +21,14 @@ Due to having imbalanced classes, we used the Balanced Accuracy score to measure
 - Recall scores for the Undersampling method were 0.69 and 0.40 for high risk and low risk loans, respectively.
 - Recall scores for the Combination Sampling were 0.73 and 0.60 for high risk and low risk loans, respectively.
     - This was the highest recall score out of all methods.
+
+### Random Forest and Easy Ensemble classifier
+
+#### Balanced Accuracy Score
+- The Random Forest model's Balanced Accuracy score was 0.79 which outperformed all of the Logistic Regression methods.
+- The Easy Ensemble Classifier's Balanced Accuracy score was 0.93 which outperformed the Random Forest model and all of the Logistic Regression methods.
+
+#### Precision and Recall
+- Precision for the Random Forest and the Easy Ensemble classifier were 0.03 and 0.09, respectively.
+- Recall scores for the Random Forest model were 0.70 and 0.87 for high risk and low risk loans, respectively.
+- Recall scores for the Easy Ensemble Classifier model were 0.92 and 0.94 for high risk and low risk loans, respectively.
