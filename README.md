@@ -32,3 +32,6 @@ Due to having imbalanced classes, we used the Balanced Accuracy score to measure
 - Precision for the Random Forest and the Easy Ensemble classifier were 0.03 and 0.09, respectively.
 - Recall scores for the Random Forest model were 0.70 and 0.87 for high risk and low risk loans, respectively.
 - Recall scores for the Easy Ensemble Classifier model were 0.92 and 0.94 for high risk and low risk loans, respectively.
+
+## Summary
+In summary, it is more important to identify high risk loans than it is to predict potential low risk loans and the Easy Ensemble Classifier is recommended for LendingClub to use due to its high sensitivity for identifying high risk loans. Although the model will have a high number of false positives, it will minimize the amount of flase negatives, which will pose less risk to LendingClub.
